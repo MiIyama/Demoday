@@ -1,0 +1,151 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Passa Pra Frente</title>
+    <link rel="stylesheet" href="{% static 'index.css' %}">
+    <link rel="shortcut icon" href="{% static 'PI0-ShortCut.png' %}">
+
+</head>
+
+<body>
+    <nav>
+        <section id='gridNav'>
+            <div class="menu">
+                <img class="menu-hamburguer" src="{% static 'PI1-Menu.png' %}" alt="Hamburguer">
+            </div>
+            
+            <div id="linkmenu">
+                <a href="">Mobiliário</a>
+                <a href="">Eletrônicos</a>
+                <a href="">Hobbies</a>
+                <a href="">Papelaria e Afins</a>
+            </div>
+
+            <img id="logo" src="{% static 'PI2-Logo_189x118.png' %}" alt="Logo">
+
+            <div class="divlink">
+                <div id="linkfixo">
+                    <a id="entrar" href="">Entrar</a>
+                    <a id="criar" href="http://localhost:8000/cadastro">Crie Sua Conta</a>
+                </div>
+            </div>
+        </section>
+    </nav>
+
+    <div id="blank"></div>
+
+    <section id="banner">
+        <img src="{% static 'PI3-Banner.png' %}" alt="Banner">
+    </section>
+ 
+    <section id="titulo">
+        <h2>ACABARAM DE CHEGAR</h2>
+    </section>
+
+    <section id="produtos">
+        <div>
+            <div class="space">
+                <img src="{% static 'PI4-MesaVermelha.jpg' %}" alt="">
+            </div>
+
+            <div>
+                <h3>Mesa Lateral Vermelha</h3>
+            </div>
+        </div>
+
+        <div>
+            <div class="space">
+                <img src="{% static 'PI5-PuffLaranja.jpg' %}" alt="">
+            </div>
+
+            <div>
+                <h3>Puff Laranja</h3>
+            </div>
+        </div>
+
+        <div>
+            <div class="space">
+                <img src="{% static 'PI6-LuminariaPreta.jpg' %}" alt="">
+            </div>
+
+            <div>
+                <h3>Luminária Preta</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="titulo2">
+        <h2>NAS CATEGORIAS</h2>
+    </section>
+ 
+    <section id="categorias">
+
+        <div>
+            <div class="space">
+                <img src="{% static 'PI7-Impressora.jpg' %}" alt="">
+            </div>
+
+            <div>
+                <h3>Eletrônicos</h3>
+            </div>
+        </div>
+
+        <div>
+            <div class="space">
+                <img src="{% static 'PI8-SuporteCelular.jpg' %}" alt="">
+            </div>
+
+            <div>
+                <h3>Hobbies</h3>
+            </div>
+        </div>
+
+        <div>
+            <div class="space">
+                <img src="{% static 'PI9-Canetinhas.jpg' %}" alt="">
+            </div>
+            <div>
+                <h3>Papelaria e Afins</h3>
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+    <section id="sobre">
+        <div class="sobre">
+            <h4>SOBRE</h4>
+            <p>Plataforma colaborativa formada por pessoas que pensam pra frente, com soluções para o consumo consciente de produtos, extraindo serventia e aumentando sua vida útil. <br><br>
+
+                #PassaPraFrente #SejaUmFrentex</p>
+        </div>
+
+        <div class="sobre">
+            <h4>SOCIAL</h4>
+            <a href="">Facebook</a><br>
+            <a href="">Instagram</a>
+        </div>
+
+        <div class="sobre">
+            <h4>UTILIDADES</h4>
+            <a href="">Ajuda</a><br>
+            <a href="">Como passar pra frente</a><br>
+            <a href="">Privacidade</a><br>
+            <a href="">Termos</a>
+        </div>
+    </section>
+
+    <footer>
+        <h5>Passa Pra Frente © 2019 - Todos os direitos reservados</h5>
+    </footer>
+
+         
+</body>
+
+</html>
